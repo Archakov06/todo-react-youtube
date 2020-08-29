@@ -20,6 +20,10 @@ function App() {
       text: 'Проверка автоматической сборки',
       completed: false,
     },
+    {
+      text: 'Загрузили проект на Vercel и Netlify',
+      completed: true,
+    },
   ]);
 
   const onToggleCompleted = (index) => {
